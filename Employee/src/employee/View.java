@@ -428,7 +428,8 @@ public class View extends javax.swing.JFrame {
                 
         } catch (Exception e) {
             // Handle SQL exception
-            e.printStackTrace();
+                JOptionPane.showMessageDialog(new JFrame(), e.getMessage(), "Error",
+                    JOptionPane.ERROR_MESSAGE);
         }
     }//GEN-LAST:event_checkDBbuttonActionPerformed
 
