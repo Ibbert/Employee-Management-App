@@ -1,3 +1,6 @@
+-- Create DB 'employee_db'
+CREATE DATABASE IF NOT EXISTS employee_db;
+
 -- Table 'user'
 CREATE TABLE user (
   user_id int(11) NOT NULL AUTO_INCREMENT,
